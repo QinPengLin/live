@@ -10,8 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    #return view('welcome');
-    echo 'no1';
+//前台路由分组
+Route::group(['namespace' => 'Index'],function (){
+    Route::get('index','IndexController@Index');
 });
+Route::get('/','Index\\IndexController@Index');
