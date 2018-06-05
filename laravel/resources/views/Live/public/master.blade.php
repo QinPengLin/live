@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>Live</title>
-    
+
+ 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link href="{{URL::asset('/live/css/bootstrap.min.css')}}" rel="stylesheet" />
