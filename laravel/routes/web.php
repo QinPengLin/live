@@ -19,8 +19,7 @@ Route::group(['namespace' => 'Live'],function (){
 });
 Route::group(['namespace' => 'Usechain','middleware' => 'web'],function (){
     Route::get('usechain/index','UsechainController@Index');
-    Route::get('usechain/info','UsechainController@Info');
-    Route::post('usechain/PostInfo','UsechainController@PostInfo');
+    Route::any('usechain/info','UsechainController@Info');
     Route::any('usechain/admin/login','UsechainAdminController@Adminlogin');
     Route::get('usechain/admin/index','UsechainAdminController@AdminIndex');
     Route::get('usechain/admin/rand','UsechainAdminController@rand');

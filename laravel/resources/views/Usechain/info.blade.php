@@ -10,11 +10,39 @@
         .masonry-container{
             margin-top: 15px;
         }
+        .list_zezao {
+            width: 100%;
+            height: 100%;
+            background: url({{URL::asset('/usechain/img/bejj.png')}});
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            z-index: 301;
+            top: 0;
+            position: fixed;
+            text-align: center;
+            display: none;
+        }
+        .v_k {
+            height: 100px;
+            width: 200px;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            background: #FFFFFF;
+            border-radius: 3px;
+        }
     </style>
 @endsection
 @section('content')
+    <div class="list_zezao" id="list_zezao"  @if($err) style="display: block;" @endif>
+        <div class="v_k">
+            <div style="font-size: 14px;">{{$err}}</div>
+            <a style="margin: 1.2rem 0.5rem 2rem;font-size: 16px;height: 1.5rem;line-height: 1.5rem;" href="javascript:coles();" class="btn">确定</a>
+        </div>
+    </div>
 <div class="wrap">
-    <form name="form1" method="post" action="/usechain/PostInfo">
+    <form name="form1" method="post" action="">
         <div class="address">
             <div class="head">联系方式</div>
             <div class="body">
@@ -66,6 +94,9 @@
     function $(id){
         return document.getElementById(id);
     }
+   function coles(){
+       document.getElementById("list_zezao").style.display="none";
+    };
     function submit_form(){
 
         var realname = $('realname').value;
