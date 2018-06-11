@@ -71,7 +71,8 @@ class UsechainAdminController extends Controller
         exit('Error');
     }
     public function AdminIndex(){
-        return view('Usechain.admin.index');
+        $key=UsechainKey::paginate(15);
+        return view('Usechain.admin.index',['keyData'=>$key]);
     }
     public function len($length=12,$type="all"){
         $int_arr = array("0","1","2","3","4","5","6","7","8","9","0");
