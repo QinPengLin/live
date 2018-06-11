@@ -47,6 +47,8 @@ class UsechainController extends Controller
             exit;
         }
         $key_sta=UsechainKey::whereIn('key',$all['tj_code'])->get();
+        print_r($key_sta);
+        exit;
         $key_sta->state=1;
         $key_sta->save();
 
