@@ -66,30 +66,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div id="page-wrapper">
         <div class="col-md-12 graphs">
             <div class="xs">
-                <h3>邀请码列表</h3>
+                <h3>预约用户列表</h3>
                 <div class="bs-example4" data-example-id="contextual-table">
                     <table class="table">
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>邀请码</th>
-                            <th>状态</th>
-                            <th>使用时间</th>
+                            <th>姓名</th>
+                            <th>电话</th>
+                            <th>使用预约码</th>
+                            <th>公司</th>
+                            <th>推荐人</th>
+                            <th>预约时间</th>
                         </tr>
                         </thead>
                         <tbody>
-                        @foreach($keyData as $v)
-                        <tr class="active">
-                            <th scope="row">{{$v->id}}</th>
-                            <td>{{$v->key}}</td>
-                            <td>@if($v->state)已用@else未用@endif</td>
-                            <td>{{$v->updated_at}}</td>
-                        </tr>
+                        @foreach($userData as $v)
+                            <tr class="active">
+                                <th scope="row">{{$v->id}}</th>
+                                <td>{{$v->name}}</td>
+                                <td>{{$v->tel}}</td>
+                                <td><?php echo trim($v->rec_coed,","); ?></td>
+                                <td>{{$v->company}}</td>
+                                <td>{{$v->rec_name}}</td>
+                                <td>{{$v->creation_time}}</td>
+                            </tr>
                         @endforeach
                         </tbody>
                     </table>
                 </div>
-                {{$keyData->links()}}
+                {{$userData->links()}}
             </div>
             <div class="copy_layout">
                 <p>Copyright &copy; 2015.Company name All rights reserved.More Templates</p>
