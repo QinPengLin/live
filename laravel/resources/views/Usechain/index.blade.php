@@ -21,23 +21,23 @@
         </div>
         <div class="buy_count" style="font-size:14px;">
             <p>
-                <b>项目背景：</b><br />
+                <b style="color: #cccccc;">项目背景：</b><br />
                 Usechain作为全球首个身份镜像区块链，将肩负起打造一个链上镜像世界的重任。通过在区块链上的真实身份映射，在用户隐私保护的前提之下满足金融系统中最重要的KYC（了解客户)及AML（反洗钱）原则，消除区块链匿名性带来的潜在危害，并基于身份带来全新共识算法革命，降低技术使用门槛，促进去中心化应用的真正落地，让华尔街所能提供的金融服务在链上的镜像世界中也能让每个人触手可及。<br /><br />
                 <b>时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;间：</b>2018年6月16日 13:30～16:00<br/>
                 <b>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：</b>杭州市萧山区金城路168号汇金星坐标A座萌悦咖啡<br/><br/>
                 <b>分享嘉宾：</b>Usechain COO 徐智文<br/><br/>
                 <b>主办机构：</b>Usechain 基金会<br/>
                 <b>特别协办：</b>雄岸资本、数加资本、骏募资本、图灵基金、筹帷资本、浙大区块链俱乐部Bithacks<br/>
-                <b>了解更多信息：</b><br/>
-                官方网站:<a href="http://www.usechain.net/" target="_blank">http://www.usechain.net/</a><br/>
-                telegram:<a href="https://t.me/usechaingroup" target="_blank">https://t.me/usechaingroup</a><br/>
-                项目白皮书:<a href="http://www.usechain.net/usechain_en.pdf" target="_blank">http://www.usechain.net/usechain_en.pdf</a><br/>
-                技术白皮书:<a href="http://www.usechain.net/usechain_tech_cn.pdf" target="_blank">http://www.usechain.net/usechain_tech_cn.pdf</a><br/>
-                Facebook:<a href="https://www.facebook.com/UsechainFoundation" target="_blank">https://www.facebook.com/UsechainFoundation</a><br/>
-                Twitter:<a href="https://twitter.com/usechain" target="_blank">https://twitter.com/usechain</a><br/>
-                Linkedin:<a href="https://www.linkedin.com/" target="_blank">https://www.linkedin.com/</a><br/>
-                reddit:<a href="https://www.reddit.com/user/Usechain/" target="_blank">https://www.reddit.com/user/Usechain/</a><br/>
-                instagram:<a href="https://www.instagram.com/UsechainOfficial/" target="_blank">https://www.instagram.com/UsechainOfficial/</a><br/>
+                <span style="color: #cccccc;">了解更多信息：</span><br/>
+                官方网站:<a style="color: rgb(0, 0, 238);" href="http://www.usechain.net/" target="_blank">http://www.usechain.net/</a><br/>
+                telegram:<a style="color: rgb(0, 0, 238);" href="https://t.me/usechaingroup" target="_blank">https://t.me/usechaingroup</a><br/>
+                项目白皮书:<a style="color: rgb(0, 0, 238);" href="http://www.usechain.net/usechain_en.pdf" target="_blank">http://www.usechain.net/usechain_en.pdf</a><br/>
+                技术白皮书:<a style="color: rgb(0, 0, 238);" href="http://www.usechain.net/usechain_tech_cn.pdf" target="_blank">http://www.usechain.net/usechain_tech_cn.pdf</a><br/>
+                Facebook:<a style="color: rgb(0, 0, 238);" href="https://www.facebook.com/UsechainFoundation" target="_blank">https://www.facebook.com/UsechainFoundation</a><br/>
+                Twitter:<a style="color: rgb(0, 0, 238);" href="https://twitter.com/usechain" target="_blank">https://twitter.com/usechain</a><br/>
+                Linkedin:<a style="color: rgb(0, 0, 238);" href="https://www.linkedin.com/" target="_blank">https://www.linkedin.com/</a><br/>
+                reddit:<a style="color: rgb(0, 0, 238);" href="https://www.reddit.com/user/Usechain/" target="_blank">https://www.reddit.com/user/Usechain/</a><br/>
+                instagram:<a style="color: rgb(0, 0, 238);" href="https://www.instagram.com/UsechainOfficial/" target="_blank">https://www.instagram.com/UsechainOfficial/</a><br/>
             </p>
         </div>
 
