@@ -1,0 +1,63 @@
+@charset "utf-8";
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,em,img,strike,strong,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;}
+ul,ol{list-style:none;}
+body{color:#000;line-height:1.5em;font-size:1rem;background-color:#FFFFFF;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:none;}
+input,select{-webkit-appearance:none;outline:none;}
+.wrap{max-width:640px;min-width:320px;margin:0 auto;}
+.pro .pic{margin-bottom:0.5rem;}
+.pro .pic img{width:100%;vertical-align:bottom;}
+.pro .title{margin-bottom:0.5rem;padding:0 0.5rem;font-size: 0.9em;}
+/*
+.pro .info{overflow:hidden;padding:0 0.5rem;margin-bottom:0.8rem;}
+*/
+.pro .price{float:left;font-weight:bold;font-size:1.4rem;}
+.btn{display:block;margin:0 0.5rem 1rem;height:2rem;text-align:center;line-height:2rem;color:#FFFFFF;background:url(../img/btn.png) no-repeat 0 0;background-size:100% 100%;}
+.cart{border-bottom:1px solid #CACACC;border-top:1px solid #CACACC;background-color:#FFFFFF;padding:0.7rem 0.5rem;overflow:hidden;}
+.cart img{width:4em;float:left;margin-right:0.6rem;}
+.cart .title{font-size:0.7rem;line-height:1.2rem;margin-bottom: 1rem;}
+.cart .info{overflow:auto;}
+.cart .price{font-weight:bold;font-size:1.2rem;}
+.cart .price2{text-align:right;font-size:0.8rem;}
+.cart .price2 strong{font-size:1rem;}
+.pro_count{border-top:1px solid #FFFFFF;padding:0.6rem 0.5rem 1.2rem;color:#828185;font-size:0.8rem;margin-bottom:1.4rem;}
+.num_box{float:left;color:#AFAEB2;}
+.num{border-radius:0;float:left;padding:0;width:2rem;text-align:center;height:1.4rem;font-family:arial,verdana,sans-serif;font-size:0.8rem;border: 1px solid #929292;margin: 0 -1px;position: relative;z-index: 10;}
+.add,.sub{position: relative;z-index: 10;float:left;background-color: #fff;width:1.4rem;border:1px solid #929292;height:1.4rem;line-height:1.4rem;text-align:center;font-size:1rem;font-weight:bold;}
+.add.disabled,.sub.disabled{background-color: #F8F8F8;border-color:#E8E8E8;color:#BEBEBE;}
+.add{border-radius:0 0.2rem 0.2rem 0;}
+.sub{border-radius:0.2rem 0 0 0.2rem;}
+
+.address{font-size:0.8rem;background-color:#FFFFFF;border-bottom:1px solid #E5E5E5;margin-bottom:1rem;}
+.address .head{text-align:center;padding:0.4rem;}
+.address .body{border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;padding:0 0.5rem;}
+.address .body li{border-bottom:1px solid #E5E5E5;overflow:hidden;padding:0.3rem 0;}
+.address .body li:last-child{border:0 none;}
+.address .lab{float:left;width:4rem;}
+.address .desc{padding:0.8rem 0.5rem;font-size: 0.7rem;line-height: 1.2rem;}
+.s01{height:1rem;font-size:0.8rem;border:0 none;outline:none;width:10rem;background-color:transparent;}
+.pay_info{text-align:right;font-size:0.8rem;padding:1rem 0.5rem;border-top:1px solid #FFFFFF;}
+.pay_info strong{font-weight:bold;font-size:1.2rem;margin-left:0.4rem;}
+.addr_info{border-top:1px solid #CACACC;border-bottom:1px solid #CACACC;padding:0 0.5rem;background-color:#FFFFFF;margin:1rem 0;}
+.addr_info li{position:relative;border-bottom:1px solid #E5E5E5;overflow:hidden;padding:0.3rem 0;}
+.addr_info li:last-child{border:0 none;}
+.addr_info .s02{position:absolute;right:0;top:0.3rem;color:#5B5B5B;font-size:0.8rem;}
+.addr_info p{color:#5B5B5B;text-align:right;font-size:0.8rem;}
+.addr_info .lab{font-size:0.8rem;}
+.addr_info .s03{font-size:0.6rem;color:#5B5B5B;}
+.addr_info select{color:#5B5B5B;font-size:0.8rem;}
+.express{width:5.4rem;text-align:right;}
+
+
+.buy_type,.buy_count{padding:0.3rem 0;margin:0 0.5rem;}
+.buy_type{border-top: 1px solid #E9E9E9;border-bottom: 1px solid #E9E9E9;}
+.buy_type .h,.buy_count .h{font-size: 0.9rem;}
+.buy_type ul{overflow: hidden;}
+.buy_type li{float: left;width: 42%;word-spacing: nowrap;margin-bottom: 0.5rem;padding-left: 2%;margin-right: 5%;font-size: 0.7em;border: 1px solid #969696;border-radius:4px;}
+.buy_type .active{color: #fff;background-color: #04BE02;border-color: #04BE02;}
+.buy_count{overflow: hidden;}
+.buy_count .h{float: left;}
+.buy_count .num_box{float: right;}
+.residue{font-size: 0.7rem;margin:0 0.5rem 0.5rem;line-height: 1.2em;}
+

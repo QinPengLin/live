@@ -17,4 +17,8 @@ Route::group(['namespace' => 'Index'],function (){
 Route::group(['namespace' => 'Live'],function (){
     Route::get('live/index','IndexController@Index');
 });
+Route::group(['namespace' => 'Usechain'],function (){
+    Route::get('usechain/index','UsechainController@Index');
+    Route::get('usechain/info','UsechainController@Info');
+});
 Route::get('/','Index\\IndexController@Index');
