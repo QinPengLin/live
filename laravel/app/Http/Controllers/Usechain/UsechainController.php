@@ -47,10 +47,7 @@ class UsechainController extends Controller
             exit;
         }
         $key_sta=UsechainKey::whereIn('key',$all['tj_code'])->get();
-        print_r($key_sta);
-        exit;
-        $key_sta->state=1;
-        $key_sta->save();
+        $ups=UsechainKey::whereIn('key',$all['tj_code'])->update(['state'=>1]);
 
         $rec_coed_str='';
         $usechain_key_id_str='';
@@ -58,6 +55,7 @@ class UsechainController extends Controller
             $rec_coed_str=$rec_coed_str.','.$v->key;
             $usechain_key_id_str=$usechain_key_id_str.','.$v->id;
         }
+        if ($ups){
             $re_user=UsechainUser::insert([
                 'name'=>$all['realname'],
                 'tel'=>$all['tel'],
@@ -71,6 +69,6 @@ class UsechainController extends Controller
                 echo '预约成功！';
                 exit;
             }
-
+        }
     }
 }
