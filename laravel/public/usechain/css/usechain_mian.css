@@ -54,7 +54,7 @@ input,select{-webkit-appearance:none;outline:none;}
 .buy_type{border-top: 1px solid #E9E9E9;border-bottom: 1px solid #E9E9E9;}
 .buy_type .h,.buy_count .h{font-size: 0.9rem;}
 .buy_type ul{overflow: hidden;}
-.buy_type li{float: left;width: 42%;word-spacing: nowrap;margin-bottom: 0.5rem;padding-left: 2%;margin-right: 5%;font-size: 0.7em;border: 1px solid #969696;border-radius:4px;}
+.buy_type li{float: left;width: 48%;word-spacing: nowrap;margin-bottom: 0.5rem;padding-left: 2%;margin-right: 5%;font-size: 0.7em;border: 1px solid #969696;border-radius:4px;}
 .buy_type .active{color: #fff;background-color: #04BE02;border-color: #04BE02;}
 .buy_count{overflow: hidden;}
 .buy_count .h{float: left;}

@@ -13,7 +13,8 @@ class UsechainController extends Controller
     public function Index(){
         return view('Usechain.index');
     }
-    public function Info(){
-        return view('Usechain.info');
+    public function Info(Request $request){
+        $all=$request->all();
+        return view('Usechain.info',['num'=>$all['num']]);
     }
 }

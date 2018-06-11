@@ -4,6 +4,21 @@
     <div class="pro">
         <div class="pic"><img src="{{URL::asset('/usechain/img/pic.jpg')}}" alt="" /></div>
         <div class="title">预定|Usechain——全球首个身份镜像区块链分享会</div>
+        <div class="buy_type">
+            <div class="h">选项：</div>
+            <ul>
+                <li id="li_2" class="active" onclick="select_buy(2);">预售票:价值988元/席</li>
+            </ul>
+            <p style="font-size:14px;margin-top:-10px;margin-left:45px;">仅限120席</p>
+        </div>
+        <div class="buy_count">
+            <div class="h">报名数量：</div>
+            <div class="num_box">
+                <a href="javascript:void(0);" class="sub disabled">-</a>
+                <input type="text" name="num" id="num" value="1" class="num">
+                <a href="javascript:void(0);" class="add">+</a>
+            </div>
+        </div>
         <div class="buy_count" style="font-size:14px;">
             <p>
                 <b>项目背景：</b><br />
@@ -41,9 +56,22 @@
     ele.style.fontSize=size+"px"
 
     $("#buy_button").click(function(){
-        var buy_type=$("#buy_type").val();
         var num=$("#num").val();
-        window.location.href="/usechain/info";
+        window.location.href="/usechain/info?num="+num;
     });
+    $(".sub").click(function(){
+        var num = parseInt($("#num").val());
+        if(num>1){
+            num--;
+            $("#num").val(num);
+        }
+    });
+
+    $(".add").click(function(){
+        var num = parseInt($("#num").val());
+        num++;
+        $("#num").val(num);
+    });
+
 </script>
 @stop
