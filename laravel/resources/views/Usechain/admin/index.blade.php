@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <th scope="row">{{$v->id}}</th>
                             <td>{{$v->key}}</td>
                             <td>@if($v->state)已用@else未用@endif</td>
-                            <td><?php  $timeint=strtotime($v->updated_at); echo date("Y-m-d H:i:s",($timeint+28800)); ?></td>
+                            <td><?php if ($v->updated_at){ $timeint=strtotime($v->updated_at); echo date("Y-m-d H:i:s",($timeint+28800));} ?></td>
                         </tr>
                         @endforeach
                         </tbody>
