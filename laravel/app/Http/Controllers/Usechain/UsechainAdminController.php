@@ -112,5 +112,8 @@ class UsechainAdminController extends Controller
         }
         UsechainKey::insert($in_dat);
     }
+    public function times(){
+        echo Carbon::now();
+    }
 
 }
