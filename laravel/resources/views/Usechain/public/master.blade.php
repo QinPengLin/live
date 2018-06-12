@@ -8,8 +8,8 @@
     <script type="text/javascript" src="{{URL::asset('/usechain/js/jquery-1.4.2.min.js')}}"></script>
     @yield('after-styles-end')
 </head>
-<div style="display:none;"><img src="{{URL::asset('/usechain/img/pic2.jpg')}}" alt=""></div>
 <body>
+<div style="display:none;"><img src="{{URL::asset('/usechain/img/pic2.jpg')}}" alt=""></div>
 @yield('content')
 @yield('after-scripts-end')
 </body>
