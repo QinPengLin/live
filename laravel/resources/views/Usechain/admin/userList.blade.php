@@ -78,6 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <th>公司</th>
                             <th>推荐人</th>
                             <th>预约时间</th>
+                            <th>预约码ID</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -90,6 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <td>{{$v->company}}</td>
                                 <td>{{$v->rec_name}}</td>
                                 <td><?php  $timeint=strtotime($v->creation_time); echo date("Y-m-d H:i:s",($timeint+28800)); ?></td>
+                                <td><?php echo trim($v->usechain_key_id,","); ?></td>
                             </tr>
                         @endforeach
                         </tbody>
