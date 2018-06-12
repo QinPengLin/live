@@ -22,7 +22,7 @@ Route::group(['namespace' => 'Usechain','middleware' => 'web'],function (){
     Route::any('usechain/info','UsechainController@Info');
     Route::any('usechain/admin/login','UsechainAdminController@Adminlogin');
     Route::get('usechain/admin/index','UsechainAdminController@AdminIndex');
-    Route::get('usechain/admin/rand','UsechainAdminController@rand');
+    //Route::get('usechain/admin/rand','UsechainAdminController@rand');
     Route::get('usechain/admin/userList','UsechainAdminController@AdminUserList');
 });
 Route::get('/','Index\\IndexController@Index');
