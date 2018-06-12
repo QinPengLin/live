@@ -67,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="col-md-12 graphs">
             <div class="xs">
                 <h3>预约用户列表</h3>
-                <div class="bs-example4" data-example-id="contextual-table">
+                <div class="bs-example4" style="overflow: scroll;" data-example-id="contextual-table">
                     <table class="table">
                         <thead>
                         <tr>
