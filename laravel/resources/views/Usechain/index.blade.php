@@ -9,7 +9,7 @@
             <ul>
                 <li id="li_2" style="display: block;" class="active" onclick="select_buy(2);">预售票:价值988元/席</li>
             </ul>
-            <p style="font-size:14px;margin-top:-10px;margin-left:45px;">仅限120席</p>
+            <p style="font-size:14px;margin-top:-10px;margin-left:45px;">仅限80席</p>
         </div>
         <div class="buy_count">
             <div class="h">报名数量：</div>

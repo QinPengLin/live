@@ -62,7 +62,7 @@
                     <input type="hidden" name="num" value="{{$num}}"/>
                     @for($i=0;$i<$num;$i++)
                     <li>
-                        <span class="lab">推荐码{{$i+1}}</span>
+                        <span class="lab">邀请码@if(!($num==1)){{$i+1}}@endif</span>
                         <input type="text" name="tj_code[]" id="tj_code" value="" placeholder="推荐码" class="s01" />
                     </li>
                     @endfor
@@ -74,7 +74,7 @@
                 </ul>
             </div>
             <div style="font-size:16px;margin-left:10px;">
-                6.16日上午凭姓名+手机号在杭州市萧山区金城路168号汇金星坐标A座萌悦咖啡参加，请如实填写。<br />咨询电话：***   *******
+                6.16日上午凭姓名+手机号在杭州市萧山区金城路168号汇金星坐标A座萌悦咖啡参加，请如实填写。<br />咨询电话：15356179688
             </div>
         </div>
 

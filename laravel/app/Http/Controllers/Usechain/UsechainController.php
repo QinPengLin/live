@@ -17,6 +17,9 @@ class UsechainController extends Controller
     public function Info(Request $request){
         if($request->isMethod('get')) {
             $all = $request->all();
+            if (!isset($all['num']) || empty($all['num'])){
+                $all['num']=1;
+            }
             $erre='';
             return view('Usechain.info', ['num' => $all['num'],'err'=>$erre]);
         }
