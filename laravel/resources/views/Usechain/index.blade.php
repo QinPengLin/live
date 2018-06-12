@@ -7,7 +7,7 @@
         <div class="buy_type">
             <div class="h">选项：</div>
             <ul>
-                <li id="li_2" style="display: block;" class="active" onclick="select_buy(2);">预售票:价值988元/席</li>
+                <li id="li_2" style="display: block;" class="active" onclick="select_buy(2);">预售票:价值988元/席</li><span style="font-size: 0.7rem;">(使用邀请码免费)</span>
             </ul>
             <p style="font-size:14px;margin-top:-10px;margin-left:45px;">仅限80席</p>
         </div>
