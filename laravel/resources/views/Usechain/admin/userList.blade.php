@@ -89,7 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <td><?php echo trim($v->rec_coed,","); ?></td>
                                 <td>{{$v->company}}</td>
                                 <td>{{$v->rec_name}}</td>
-                                <td>{{$v->creation_time}}</td>
+                                <td><?php  $timeint=strtotime($v->creation_time); echo date("Y-m-d H:i:s",($timeint+28800)); ?>{{$v->creation_time}}</td>
                             </tr>
                         @endforeach
                         </tbody>
