@@ -27,7 +27,7 @@
                 <b>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：</b>杭州市萧山区金城路168号汇金星坐标A座萌悦咖啡（近地铁1号线滨康路站、地铁2号线人民广场站）<br/><br/>
                 <b>分享嘉宾：</b>Usechain COO 徐智文<br/><br/>
                 <b>主办机构：</b>Usechain 基金会<br/>
-                <b>特别协办：</b>雄岸资本、数加资本、骏募资本、图灵基金、筹帷资本、元弘投资、浙大区块链俱乐部Bithacks<br/>
+                <b>特别协办：</b>雄岸资本、数加资本、骏募资本、图灵基金、筹帷资本、元弘投资、浙大区块链俱乐部Bithacks、求是区块链大学（筹）<br/>
                 <span style="color: #cccccc;">了解更多信息：</span><br/>
                 官方网站:<a style="color: rgb(0, 0, 238);" href="http://www.usechain.net/" target="_blank">http://www.usechain.net/</a><br/>
                 telegram:<a style="color: rgb(0, 0, 238);" href="https://t.me/usechaingroup" target="_blank">https://t.me/usechaingroup</a><br/>
