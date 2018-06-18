@@ -57,7 +57,7 @@ class UsechainController extends Controller
             ]);
             if ($re_user){
                 $erre='报名成功！';
-                return view('Usechain.info', ['err'=>$erre]);
+                return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;
             }
         }
