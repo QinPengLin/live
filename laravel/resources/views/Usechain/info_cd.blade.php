@@ -96,18 +96,18 @@
             var tel = $('tel').value;
             var company = $('company').value;
 
-            // if(!realname){
-            //     alert('请填写名字');
-            //     return false;
-            // }
-            // if( !tel ){
-            //     alert('请填写联系电话');
-            //     return false;
-            // }
-            // if( !company ){
-            //     alert('请填写公司');
-            //     return false;
-            // }
+            if(!realname){
+                alert('请填写名字');
+                return false;
+            }
+            if( !tel ){
+                alert('请填写联系电话');
+                return false;
+            }
+            if( !company ){
+                alert('请填写公司');
+                return false;
+            }
 
             form1.submit();
         }
