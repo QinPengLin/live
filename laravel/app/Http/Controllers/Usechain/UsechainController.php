@@ -17,7 +17,7 @@ class UsechainController extends Controller
     public function IndexCd(){
         $count=UsechainUser::where('prj','cd')->count();
         $count=120-$count;
-        return view('Usechain.index_cd',['count',$count]);
+        return view('Usechain.index_cd',['count'=>$count]);
     }
     public function InfoCd(Request $request){
         if($request->isMethod('get')) {
