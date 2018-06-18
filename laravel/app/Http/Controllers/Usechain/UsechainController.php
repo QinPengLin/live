@@ -47,6 +47,12 @@ class UsechainController extends Controller
                 return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;
             }
+            $sf=UsechainUser::where('tel',$all['tel'])->first();
+            if ($sf){
+                $erre='电话号码已使用过';
+                return view('Usechain.info_cd', ['err'=>$erre]);
+                exit;
+            }
             $re_user=UsechainUser::insert([
                 'name'=>$all['realname'],
                 'tel'=>$all['tel'],
