@@ -25,7 +25,41 @@ class UsechainController extends Controller
             return view('Usechain.info_cd', ['err'=>$erre]);
         }
         if($request->isMethod('post')){
-
+            $all=$request->all();
+            if (empty($all['realname']) || !isset($all['realname'])){
+                $erre='姓名不能为空';
+                return view('Usechain.info_cd', ['err'=>$erre]);
+                exit;
+            }
+            if (empty($all['tel']) || !isset($all['tel']) || !(preg_match("/^1[345678]{1}\d{9}$/",$all['tel']))){
+                $erre='电话号码不合法';
+                return view('Usechain.info_cd', ['err'=>$erre]);
+                exit;
+            }
+            if (empty($all['company']) || !isset($all['company'])){
+                $erre='公司不能为空';
+                return view('Usechain.info_cd', ['err'=>$erre]);
+                exit;
+            }
+            $count=UsechainUser::where('prj','cd')->count();
+            if ($count>1){
+                $erre='报名数量用完';
+                return view('Usechain.info_cd', ['err'=>$erre]);
+                exit;
+            }
+            $re_user=UsechainUser::insert([
+                'name'=>$all['realname'],
+                'tel'=>$all['tel'],
+                'company'=>$all['company'],
+                'rec_name'=>$all['tj_name'],
+                'creation_time'=>Carbon::now(),
+                'prj'=>'cd'
+            ]);
+            if ($re_user){
+                $erre='报名成功！';
+                return view('Usechain.info', ['err'=>$erre]);
+                exit;
+            }
         }
     }
     public function Info(Request $request){

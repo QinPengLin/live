@@ -96,35 +96,19 @@
             var tel = $('tel').value;
             var company = $('company').value;
 
-            if(!realname){
-                alert('请填写名字');
-                return false;
-            }
-            if( !tel ){
-                alert('请填写联系电话');
-                return false;
-            }
-            if( !company ){
-                alert('请填写公司');
-                return false;
-            }
+            // if(!realname){
+            //     alert('请填写名字');
+            //     return false;
+            // }
+            // if( !tel ){
+            //     alert('请填写联系电话');
+            //     return false;
+            // }
+            // if( !company ){
+            //     alert('请填写公司');
+            //     return false;
+            // }
 
-            var tj_code= document.getElementsByName('tj_code[]');
-            var ary = new Array();
-            for (i=0;i<tj_code.length;i++){
-                ary[i]=tj_code[i].value;
-                if (!tj_code[i].value){
-                    alert('请填推荐码');
-                    return false;
-                }
-            }
-            var nary=ary.sort();
-            for(var i=0;i<ary.length;i++){
-                if (nary[i]==nary[i+1]){
-                    alert("推荐码重复");
-                    return false;
-                }
-            }
             form1.submit();
         }
 
