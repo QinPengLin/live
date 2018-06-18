@@ -42,7 +42,7 @@ class UsechainController extends Controller
                 exit;
             }
             $count=UsechainUser::where('prj','cd')->count();
-            if ($count>2){
+            if ($count>119){
                 $erre='报名数量用完';
                 return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;

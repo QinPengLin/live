@@ -24,6 +24,6 @@ Route::group(['namespace' => 'Usechain','middleware' => 'web'],function (){
     Route::get('usechain/admin/index','UsechainAdminController@AdminIndex');
     //Route::get('usechain/admin/rand','UsechainAdminController@rand');
     Route::get('usechain/admin/times','UsechainAdminController@times');
-    Route::get('usechain/admin/userList','UsechainAdminController@AdminUserList');
+    Route::get('usechain/admin/userList','UsechainAdminController@AdminUserListCd');
 });
 Route::get('/','Index\\IndexController@Index');
