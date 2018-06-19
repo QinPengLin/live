@@ -19,6 +19,7 @@
                     <b>分享嘉宾：</b>Usechain COO 徐智文<br/><br/>
                     <b>主办机构：</b>Usechain 基金会<br/>
                     <b>特别协办：</b>雄岸资本、数加资本、骏募资本、图灵基金、筹帷资本、元弘投资、浙大区块链俱乐部Bithacks、求是区块链大学（筹）<br/>
+                    <b>协办单位：</b>成都易元科技有限责任公司、成都青翼科技有限责任公司<br/>
                     <span style="color: #cccccc;">了解更多信息：</span><br/>
                     官方网站:<a style="color: rgb(0, 0, 238);" href="http://www.usechain.net/" target="_blank">http://www.usechain.net/</a><br/>
                     telegram:<a style="color: rgb(0, 0, 238);" href="https://t.me/usechaingroup" target="_blank">https://t.me/usechaingroup</a><br/>
