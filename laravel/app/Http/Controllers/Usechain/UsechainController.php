@@ -31,7 +31,7 @@ class UsechainController extends Controller
                 return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;
             }
-            if (empty($all['tel']) || !isset($all['tel']) || !(preg_match("/^1[345678]{1}\d{9}$/",$all['tel']))){
+            if (empty($all['tel']) || !isset($all['tel']) || !(preg_match("/^1[3456789]{1}\d{9}$/",$all['tel']))){
                 $erre='电话号码不合法';
                 return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;
