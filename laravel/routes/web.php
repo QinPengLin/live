@@ -16,6 +16,7 @@ Route::group(['namespace' => 'Index'],function (){
 });
 Route::group(['namespace' => 'Live'],function (){
     Route::get('live/index','IndexController@Index');
+    Route::get('bet365/asian_lines','IndexController@AsianLines');
 });
 Route::group(['namespace' => 'Usechain','middleware' => 'web'],function (){
     Route::get('usechain/index','UsechainController@IndexCd');

@@ -21,4 +21,15 @@ class IndexController extends Controller
 //        );
         return view('Live.index.index',['index'=>$index]);
     }
+    public function AsianLines(Request $request){
+        $dat=$request->all();
+        $redata=Redis::hget('hash', $dat['key']);
+        if ($redata){
+            $rearr['success']=1;
+            $rearr['results']=json_decode($redata,true);
+            return json_encode($rearr);
+        }else{
+            return json_encode(['code'=>'500', 'msg'=>'无数据']);
+        }
+    }
 }
