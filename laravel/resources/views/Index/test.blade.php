@@ -74,7 +74,7 @@
 
         <div class="links">
             <a href="http://www.qinpl.cn/">Home</a>
-            <a href="http://cp.qinpl.cn/">Live</a>
+            <a href="http://live.qinpl.cn/live/index">Live</a>
         </div>
     </div>
 </div>
