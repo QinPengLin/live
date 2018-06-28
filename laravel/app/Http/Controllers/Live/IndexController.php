@@ -27,9 +27,10 @@ class IndexController extends Controller
             return json_encode(['code'=>'500', 'msg'=>'error']);
         }
         $redata=Redis::hget('hash', $dat['key']);
-        if ($redata){
+        $redata_main=Redis::hget('hash', $dat['key'].'_main');
+        if ($redata || $redata_main){
             $rearr['success']=1;
-            $rearr['results']=array(json_decode($redata,true));
+            $rearr['results']=array(array('FI'=>$dat['key']),json_decode($redata,true),json_decode($redata_main,true));
             return json_encode($rearr);
         }else{
             return json_encode(['code'=>'500', 'msg'=>'无数据']);
