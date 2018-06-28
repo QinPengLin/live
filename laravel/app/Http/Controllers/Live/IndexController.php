@@ -23,6 +23,9 @@ class IndexController extends Controller
     }
     public function AsianLines(Request $request){
         $dat=$request->all();
+        if (!isset($dat['key']) || empty($dat['key'])){
+            return json_encode(['code'=>'500', 'msg'=>'error']);
+        }
         $redata=Redis::hget('hash', $dat['key']);
         if ($redata){
             $rearr['success']=1;
