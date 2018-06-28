@@ -32,7 +32,6 @@ class IndexController extends Controller
             $rearr['success']=1;
             json_decode($redata,true)['asian_lines']?$asian_lines=json_decode($redata,true)['asian_lines']:$asian_lines=null;
             json_decode($redata_main,true)['main']?$main=json_decode($redata_main,true)['main']:$main=null;
-            $asian_lines
             $rearr['results']=array('FI'=>$dat['key'],'asian_lines'=>$asian_lines,'main'=>$main);
             return json_encode($rearr);
         }else{
