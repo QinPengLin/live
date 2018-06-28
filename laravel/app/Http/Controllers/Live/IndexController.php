@@ -29,7 +29,7 @@ class IndexController extends Controller
         $redata=Redis::hget('hash', $dat['key']);
         if ($redata){
             $rearr['success']=1;
-            $rearr['results']=json_decode($redata,true);
+            $rearr['results']=array(json_decode($redata,true));
             return json_encode($rearr);
         }else{
             return json_encode(['code'=>'500', 'msg'=>'无数据']);
