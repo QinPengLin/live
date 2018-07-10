@@ -41,7 +41,7 @@ class UsechainController extends Controller
                 return view('Usechain.info_cd', ['err'=>$erre]);
                 exit;
             }
-            $count=UsechainUser::where('prj','cd')->count();
+            $count=UsechainUser::where('prj','sh')->count();
             if ($count>119){
                 $erre='报名数量用完';
                 return view('Usechain.info_cd', ['err'=>$erre]);
@@ -59,7 +59,7 @@ class UsechainController extends Controller
                 'company'=>$all['company'],
                 'rec_name'=>$all['tj_name'],
                 'creation_time'=>Carbon::now(),
-                'prj'=>'cd'
+                'prj'=>'sh'
             ]);
             if ($re_user){
                 $erre='报名成功！';

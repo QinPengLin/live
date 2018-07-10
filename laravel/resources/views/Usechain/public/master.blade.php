@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no," />
-    <title>6月23号 Usechain 成都站路演报名登记</title>
+    <title>7月16日 Usechain 上海站路演报名登记</title>
     <link rel="stylesheet" type="text/css" href="{{URL::asset('/usechain/css/usechain_mian.css')}}" />
     <script type="text/javascript" src="{{URL::asset('/usechain/js/jquery-1.4.2.min.js')}}"></script>
     @yield('after-styles-end')

@@ -79,7 +79,7 @@ class UsechainAdminController extends Controller
         return view('Usechain.admin.userList',['userData'=>$userData]);
     }
     public function AdminUserListCd(){
-        $userData=UsechainUser::where('prj','cd')->paginate(15);
+        $userData=UsechainUser::where('prj','sh')->paginate(15);
         return view('Usechain.admin.userListCd',['userData'=>$userData]);
     }
     public function len($length=12,$type="all"){
